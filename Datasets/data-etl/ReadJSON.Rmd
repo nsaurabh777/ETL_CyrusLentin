@@ -1,0 +1,14 @@
+---
+title: "Read JSON"
+author: "Saurabh"
+date: "10/02/2017"
+output: html_document
+---
+
+```{r json}
+library(rjson)
+library(tidyjson)
+library(jsonlite)
+catalog<-fromJSON(txt ="Catalog.json")
+print(catalog)
+```

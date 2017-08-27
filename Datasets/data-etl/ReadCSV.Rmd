@@ -1,0 +1,11 @@
+---
+title: "Read CSV"
+author: "Saurabh"
+date: "10/02/2017"
+output: html_document
+---
+
+```{r CSV}
+catalog<-read.csv("Catalog.csv")
+catalog
+```

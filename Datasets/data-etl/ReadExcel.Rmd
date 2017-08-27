@@ -1,0 +1,13 @@
+---
+title: "Read Excel"
+author: "Saurabh"
+date: "10/02/2017"
+output: html_document
+---
+
+```{r Excel}
+library(readxl)
+catalog<-read_excel("Catalog.xlsx")
+catalog
+```
+

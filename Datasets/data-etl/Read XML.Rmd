@@ -1,0 +1,12 @@
+---
+title: "Read XML"
+author: "Saurabh"
+date: "10/02/2017"
+output: html_document
+---
+```{r XML}
+library(XML)
+library(methods)
+catalog<-xmlToDataFrame("Catalog.xml")
+catalog
+```
